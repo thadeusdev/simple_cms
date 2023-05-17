@@ -2,6 +2,9 @@ Rails.application.routes.draw do
   #root route
   root 'demo#index'
   get 'demo/index'
+  get 'demo/hello'
+  get 'demo/other_hello'
+  get 'demo/lynda'
   # get 'demo/index' #=> simple route
 
   # get ':controller(/:action(/:id))' #=> Default route - may go away in future rails
