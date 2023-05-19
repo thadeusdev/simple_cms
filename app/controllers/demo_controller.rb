@@ -22,4 +22,7 @@ class DemoController < ApplicationController
     redirect_to  external_url, allow_other_host: true
   end
 
+  def escape_output
+  end
+
 end
